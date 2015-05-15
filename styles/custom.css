@@ -61,7 +61,11 @@ footer {
 }
 
 .social {
-	padding: 0 0 20px 0;
+	padding: 0 0 20px 20px;
+}
+
+.back {
+	padding-left: 200px;
 }
 
 .column-work {
@@ -74,4 +78,13 @@ footer {
 
 .form {
 	padding: 10px 10px 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+	
+#navigation {
+	position: absolute;
+}
+	
+	
 }
