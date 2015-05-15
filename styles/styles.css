@@ -1,3 +1,60 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.navbar {
+}
+
+.project {
+	padding: 20px 0 0 20px;
+}
+
+.project a {
+	float: ;
+	position: inherit;
+	visibility: visible;	
+}
+
+.project a:hover {
+	background-color: ;
+	opacity: ;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+
+.project a:hover .project-info {
+	display: ;
+	color: ;
+	background-color:;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+
+.project a .project-info {
+	display: ;
+	position: ;
+	top: ;
+	left: ;
+	bottom: ;
+	right: ;
+	color: ;
+	padding: ;
+	color: ;
+	font-size: ;
+	font-family: ;
+	background-color: ;
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+}

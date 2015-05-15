@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#navigation {
+	position: fixed;
+	z-index: 1;
+}
+
+.page-links {
+	list-style: none;
+	padding: 20px 0 0 0;
+}
+
+.info {
+	list-style: none;
+}
+
+.icon {
+	list-style: none;
+}
+
+#home {
+	z-index: 0;
+	padding-top: 100px;
+}
+
+#work {
+	z-index: 0;
+	padding-top: 200px;
+}
+
+#about {
+	z-index: 0;
+	padding-top: 200px;
+}
+
+#contact {
+	z-index: 0;
+	padding-top: 200px;
+}
+
+footer {
+	z-index: 0;
+	padding-top: 200px;
+}
+
+.column, .columns {
+  position: relative;
+  padding: 0 0 0 0;
+  float: left;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.row .row {
+	margin: 0 auto;
+}
+
+.social {
+	padding: 0 0 20px 0;
+}
+
+.column-work {
+	padding: 10px 10px 0 0;
+}
+
+.column-skill {
+	padding: 10px 10px 0 0;
+}
+
+.form {
+	padding: 10px 10px 0 0;
+}
