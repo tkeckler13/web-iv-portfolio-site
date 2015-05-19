@@ -39,6 +39,14 @@
 	padding-top: 200px;
 }
 
+#project {
+	padding-top: 200px;
+}
+
+.project-imagery {
+	padding-top: 50px;
+}
+
 footer {
 	z-index: 0;
 	padding-top: 200px;
@@ -65,7 +73,7 @@ footer {
 }
 
 .back {
-	padding-left: 200px;
+	float: right;
 }
 
 .column-work {
@@ -80,7 +88,7 @@ footer {
 	padding: 10px 10px 0 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 40em) {
 	
 #navigation {
 	position: absolute;
