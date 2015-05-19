@@ -2,3 +2,10 @@
 /* CSS Document */
 
 
+.column-work {
+	border-radius: 30px;
+}
+
+.featured {
+	border-radius: 250px;
+}
