@@ -88,7 +88,7 @@ footer {
 }
 
 .back {
-	text-align: right;
+	margin-bottom: 100px;
 }
 
 .column-work {
@@ -98,7 +98,7 @@ footer {
 .block {
 	margin: 10px 10px 0 0;
 	background-color: #C7C7C7;
-	border-radius: 30px;
+	border-radius: 20px;
 }
 
 .block-skill {
@@ -135,6 +135,16 @@ footer {
 #navigation {
 	position: absolute;
 }
-	
+
+.column-work {
+	padding: 5px 5px 0 0;
+	border-radius: 10px;
+}
+
+.block {
+	margin: 5px 5px 0 0;
+	background-color: #C7C7C7;
+	border-radius: 10px;
+}
 	
 }
