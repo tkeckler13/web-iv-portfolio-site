@@ -3,33 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Teaspoon Design</title>
+<script src="scripts/jquery-2.1.4.min.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
 <link rel="stylesheet" type="text/css" href="styles/foundation.css">
 <link rel="stylesheet" type="text/css" href="styles/custom.css">
-<script src="scripts/jquery-2.1.4.min.js"></script>
+<script src="scripts/custom.js"></script>
 </head>
 
 <body>
     
 	<section id="navigation">
-    	<div class="">
-        	<div class="navbar row">
-            	<div class="large-2 medium-2 small-2 columns end">
-    				<h1 class="logo"><img class="logo" src="images/logo-2.png" alt="logo"></h1>
-                </div>
-    			<nav>
-            		<div class="">
-    					<ul class="page-links large-5 large-offset-1 columns end">
-        					<li class="large-3 medium-3 small-3 columns"><a href="#home">Home</a></li>
-    						<li class="large-3 medium-3 small-3 columns"><a href="#work">Work</a></li>
-    						<li class="large-3 medium-3 small-3 columns"><a href="#about">About</a></li>
-							<li class="large-3 medium-3 small-3 columns end"><a href="#contact">Contact</a></li>
-        				</ul>
-                    </div>
-            	</nav>
-            </div>
-            
-            	<nav class="large-1 medium-1 small-1 columns end">
+    	<div class="large-2 medium-3 small-4 columns end"><img src="images/logo-2.png" alt="logo"></div>
+    	<div class="container">
+			<nav id="navigation">
+				<div class="nav-trigger">Menu<span></span></div>
+				<ul class="menu">
+					<li><a href="home" title="Link">Home</a></li>
+					<li><a href="work" title="Link">Work</a></li>
+					<li><a href="about" title="Link">About</a></li>
+					<li><a href="contact" title="Link">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+    </section>
+    
+    <section id="social-icons">
+    		<div class="social-column large-1 medium-1 small-2 columns end">
                 	<div class="row social">
                        	<a href="https://www.facebook.com/tkeckler">
             				<img src="images/facebook.png" width="50" alt="icon">
@@ -60,18 +59,17 @@
           	  				<img src="images/linked.png" width="50" alt="icon">
                         </a>
                    	</div>
-    			</nav>
-                        	
-    	</div>
+    		</div>
     </section>
+            
     
     <section id="home">
-    	<div class="s">
+    	<div class="">
 			<header class="first">
-  				<h1 class="large-3 large-offset-5 medium-3 medium-offset-5 small-3 small-offset-5 column">Featured Work</h1>
-                <div class="row">
+            	<div class="row">
+  					<h1 class="large-2 large-offset-2 medium-3 medium-offset-5 small-3 small-offset-4 column">Featured Work</h1>
                 	<a href="project-pages/miracle-grow.html">
-           				<img class="featured large-4 large-offset-6 medium-4 medium-offset-6 small-4 small-offset-6 columns" src="images/original-icons/miracle-grow-icon.jpg" alt="featured">
+           				<img class="featured large-5 medium-5 medium-offset-6 small-7 small-offset-5 columns end" src="images/original-icons/miracle-grow-icon.jpg" alt="featured">
                     </a>
                 </div>
 			</header>
@@ -80,7 +78,7 @@
     
     <section id="work">
     	<div class="row">
-        	<div class="large-3 large-offset-2 medium-3 medium-offset-2 small-3 small-offset-2 columns end">
+        	<div class="large-3 large-offset-2 medium-3 medium-offset-2 small-4 small-offset-2 columns end">
     			<div class="">
                 	<div class="row">
                 		<div class="large-8 large-offset-4 medium-8 medium-offset-4 small-8 small-offset-4 columns">
@@ -96,7 +94,7 @@
                     </a>
                 </div>
             </div>
-    			<div class="large-2 medium-2 small-2 columns">
+    			<div class="large-2 medium-2 small-3 columns">
                 	<div class="project">
                     	<a href="project-pages/nightowl.html">
     						<img class="column-work" src="images/original-icons/little-white-lion-icon.jpg" alt="icon">
@@ -108,38 +106,38 @@
                         </a>
                     </div>
         		</div>
-        		<div class="project large-3 medium-3 small-3 columns end">
+        		<div class="project large-3 medium-3 small-4 columns end">
                 	<a href="project-pages/hopkins-web.html">
     					<img class="column-work" src="images/original-icons/hopkins-mobile-icon.jpg" alt="icon">
                     </a>
         		</div>
             </div>
             <div class="row">
-        		<div class=" project large-4 large-offset-3 medium-4 medium-offset-3 small-4 small-offset-3 columns">
+        		<div class=" project large-4 large-offset-3 medium-4 medium-offset-3 small-5 small-offset-3 columns">
                 	<a href="project-pages/snowdrift.coop.html">
     					<img class="column-work" src="images/original-icons/snowdrift-identity-icon.jpg" alt="icon">
                     </a>
         		</div>
-        		<div class=" project large-2 medium-2 small-2 columns end">
+        		<div class=" project large-2 medium-2 small-3 columns end">
                 	<a href="project-pages/redneck-triatholon.html">
     					<img class="column-work" src="images/original-icons/redneck-icon.jpg" alt="icon">
                     </a>
         		</div>
             </div>
             <div class="row">
-        		<div class="project large-5 medium-5 small-5 columns">
+        		<div class="project large-5 medium-5 small-7 columns">
                 	<a href="project-pages/hyde-memorial-observatory.html">
     					<img class="column-work" src="images/original-icons/hyde-web-icon.jpg" alt="icon">
                     </a>
         		</div>
-        		<div class="project large-2 medium-2 small-2 columns end">
+        		<div class="project large-2 medium-2 small-3 columns end">
                 	<a href="project-pages/tammys-soap-shack.html">
     					<img class="column-work" src="http://placehold.it/400x400" alt="icon">
                     </a>
         		</div>
             </div>
             <div class="row">
-            	<div class="project large-2 large-offset-8 medium-2 medium-offset-8 small-2 small-offset-8 columns end">
+            	<div class="project large-2 large-offset-8 medium-2 medium-offset-8 small-3 small-offset-8 columns end">
                 	<a href="project-pages/jones-towing.html">
     					<img class="column-work" src="images/original-icons/jones-logo-icon.jpg" alt="icon">
                     </a>
@@ -151,14 +149,14 @@
     					<img class="column-work" src="http://placehold.it/600x805" alt="icon">
                     </a>
         		</div>
-        		<div class=" project large-4 medium-4 small-4 columns end">
+        		<div class=" project large-4 medium-4 small-5 columns end">
                 	<a href="#">
     					<img class="column-work" src="http://placehold.it/800x800" alt="icon">
                     </a>
         		</div>
             </div>
             <div class="row">
-        		<div class="project large-12 large-offset-1 medium-12 medium-offset-1 small-12 small-offset-1 columns">
+        		<div class="project large-11 large-offset-1 medium-11 medium-offset-1 small-10 small-offset-2 columns">
                 	<a href="project-pages/little-white-lion.html">
     					<img class="column-work" src="images/original-icons/nightowl-icon.jpg" alt="icon">
                     </a>
@@ -168,10 +166,10 @@
     
     <section id="about">
         <div class="row">
-    		<h2 class="small-6 small-offset-3 columns end">About Me</h2>
+    		<h2 class="large-offset-3 small-6 small-offset-2 columns end">About Me</h2>
         </div>
         <div class="row">
-            <div class="small-4 small-offset-3 columns">
+            <div class="large-4 large-offset-3 medium-6 small-7 small-offset-2 columns">
            		<div class="block row">
         			<p class="body">Where I’m from - Lincoln, Nebraska. Corn.
 Graduated from - GDMA Program. Don’t judge me, I’m amazing.
@@ -180,24 +178,24 @@ What kind of designs represent me - Illustrative works, Things that stand out an
 What I can do for them - Unique designs with personalized illustrative designs that express spontaneity, charm, and fun. All about the fun.</p>
 				</div>
             	<div class="row">
-	        		<div class="block small-9 small-offset-3 columns">
+	        		<div class="block large-9 large-offset-3 small-12 columns">
                 		<div class="body">
         					<h3>Contact Me</h3>
             				<div class="">
             					<div class="row contact">
-        							<div class="icon small-3 columns"><img src="#" alt="icon"></div>
-        	    					<div class="info">(1)402-209-5313</div>
+        							<div class="icon large-3 small-2 columns"><img src="#" alt="icon"></div>
+        	    					<div class="info large-8 small-9 columns end">(1)402-209-5313</div>
                 				</div>
                					<div class="row contact">
-           							<div class="icon small-3 columns"><img src="#" alt="icon"></div>
-           							<div class="info">tkeckler13@yahoo.com</div>
+           							<div class="icon large-3 small-2 columns"><img src="#" alt="icon"></div>
+           							<div class="info large-4 small-9 columns end">tkeckler13@yahoo.com</div>
             					</div>
             				</div>
                     	</div>
         			</div>
             	</div>
             </div>
-            <div class="skills small-1 columns end">
+            <div class="skills large-1 medium-1 small-2 columns end">
             	<div class="skill">
                 	<div class="block-skill row">
                 		<img class="column-skill" src="http://placehold.it/75x75" alt="icon">
@@ -224,39 +222,39 @@ What I can do for them - Unique designs with personalized illustrative designs t
     
     <section id="contact" class="hide-for-small-only">
     	<div class="row">
-    		<div class="large-3 large-offset-3 medium-3 medium-offset-3 small-3 small-offset-3 columns">
+    		<div class="large-3 large-offset-3 medium-3 medium-offset-3 columns">
             	<h2>Commission Request</h2>
             </div>
         </div>
         	<div class="row">
     			<form>
                 	<div class="row">
-                    	<div class="form large-2 large-offset-3 medium-2 medium-offset-3 small-2 small-offset-3 columns">
+                    	<div class="form large-2 large-offset-3 medium-3 medium-offset-2 columns">
 				  			<input type="text" placeholder="Name">
                         </div>
-                        <div class="form large-2 medium-2 small-2 column">
+                        <div class="form large-2 medium-3 column">
 				  			<input type="text" placeholder="Email">
                         </div>
-                        <div class="form large-2 medium-2 small-2 column end">
+                        <div class="form large-2 medium-3 column end">
 				  			<input type="text" placeholder="Website">
                         </div>
                     </div>
                     <div class="row">
-                    	<div class="form large-2 large-offset-3 medium-2 medium-offset-3 small-2 small-offset-3 columns">
+                    	<div class="form large-2 large-offset-3 medium-3 medium-offset-2 columns">
 				  			<input type="text" placeholder="Deadline">
                         </div>
-                        <div class="form large-2 medium-2 small-2 column">
+                        <div class="form large-2 medium-3 column">
 				  			<input type="text" placeholder="Budget">
                         </div>
-                        <div class="form large-2 medium-2 small-2 column end">
+                        <div class="form large-2 medium-3 column end">
 				  			<input type="text" placeholder="Services Needed">
                         </div>
                   	</div>
                     <div class="row">
-                    	<div class="form large-4 large-offset-3 medium-4 medium-offset-3 small-4 small-offset-3 column">
+                    	<div class="form large-4 large-offset-3 medium-6 medium-offset-2 column">
                   			<input type="text" placeholder="Tell me a bit about your project...">
                         </div>
-                        <div class="form large-2 medium-2 small-2 column end">
+                        <div class="form large-2 medium-3 column end">
 	                        <a href="#" class="send">Submit</a>
                         </div>
                   	</div>

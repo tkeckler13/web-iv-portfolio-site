@@ -6,12 +6,41 @@
 	z-index: 1;
 }
 
+#social-icons {
+	padding-top: 170px;
+}
+
+#home {
+	z-index: 0;
+	margin-top: -200px;
+}
+
+#work {
+	z-index: 0;
+	margin-top: 200px;
+}
+
+#about {
+	z-index: 0;
+	padding-top: 200px;
+}
+
+#contact {
+	z-index: 0;
+	padding-top: 200px;
+}
+
+#project {
+	padding-top: 200px;
+}
+
 .logo {
 	padding: 0 0 0 10px;
 }
 
 ul {
-	margin: 20px 0 0 0;
+	margin: 0 0 0 0;
+	background-color: white;
 }
 
 p {
@@ -32,30 +61,6 @@ p {
 
 .icon {
 	list-style: none;
-}
-
-#home {
-	z-index: 0;
-	padding-top: 100px;
-}
-
-#work {
-	z-index: 0;
-	padding-top: 200px;
-}
-
-#about {
-	z-index: 0;
-	padding-top: 200px;
-}
-
-#contact {
-	z-index: 0;
-	padding-top: 200px;
-}
-
-#project {
-	padding-top: 200px;
 }
 
 .project-imagery {
@@ -81,6 +86,10 @@ footer {
 
 .row .row {
 	margin: 0 auto;
+}
+
+.social-column {
+	position: fixed;
 }
 
 .social {
@@ -130,11 +139,252 @@ footer {
 	padding-top: 20px;
 }
 
-@media only screen and (max-width: 40em) {
-	
-#navigation {
-	position: absolute;
+
+
+
+
+<!--This is for the burger nav-->
+
+ul, li {margin:0;padding:0;}
+a {text-decoration:none;}
+
+h1 {font-size:1.5em;text-align:center;margin:55px 0;}
+
+header {
+    height:115px;
 }
+
+header .container {
+    padding:0 5%;
+}
+
+.container {
+	background-color: white;
+}
+
+nav#navigation {
+    height:38px;
+    float:left;
+    position:relative;
+    margin-top: 30px;
+    width:65%;
+}
+
+nav#navigation .nav-trigger {
+    display:none;
+    position:absolute;
+    top:0;
+    right:0;
+    width:38px;
+    height:38px;
+    background:#212121;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    z-index:11;
+    cursor:pointer;
+}
+
+nav#navigation ul li {
+    float:left;
+    list-style:none;
+    text-align:center;
+    width:24%;
+    margin-left:1%;
+}
+
+nav#navigation ul li a {
+    text-align:center;
+    display:block;
+    color:#000;
+    padding:10px 0;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+
+nav#navigation ul li.current a {
+    background:#fff;
+    color:#ccc;
+}
+
+nav#navigation ul li a:hover {
+    background: #fff;
+    color: #85bab8;
+}
+
+
+@media only screen and (max-width : 900px) {
+nav#navigation {
+    position:absolute;
+    width:90%;
+}
+
+nav#navigation .nav-trigger {
+    display:block;
+    border-radius: 5px;
+}
+
+nav#navigation .nav-trigger span {
+    position:absolute;
+    display:block;
+    width:20px;
+    height:2px;
+    background:#FFF;
+    top:18px;
+    left:50%;
+    margin-left:-10px;
+    -webkit-transition:background .5s;
+    -moz-transition:background .5s;
+    transition:background .5s;
+}
+
+nav#navigation .nav-trigger span::before,.nav-trigger span::after {
+    content:'';
+    position:absolute;
+    left:0;
+    background:inherit;
+    width:100%;
+    height:100%;
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    -ms-transform:translateZ(0);
+    -o-transform:translateZ(0);
+    transform:translateZ(0);
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+
+nav#navigation .nav-trigger span::before {
+    top:-6px;
+    -webkit-transform:rotate(0);
+    -moz-transform:rotate(0);
+    -ms-transform:rotate(0);
+    -o-transform:rotate(0);
+    transform:rotate(0);
+}
+
+nav#navigation .nav-trigger span::after {
+    bottom:-6px;
+    -webkit-transform:rotate(0);
+    -moz-transform:rotate(0);
+    -ms-transform:rotate(0);
+    -o-transform:rotate(0);
+    transform:rotate(0);
+}
+
+nav#navigation .nav-trigger.open span {
+    background:rgba(255,255,255,0);
+}
+
+nav#navigation .nav-trigger.open span::before,.nav-trigger.open span::after {
+    background:#FFF;
+}
+
+nav#navigation .nav-trigger.open span::before {
+    top:0;
+    -webkit-transform:rotate(135deg);
+    -moz-transform:rotate(135deg);
+    -ms-transform:rotate(135deg);
+    -o-transform:rotate(135deg);
+    transform:rotate(135deg);
+}
+
+nav#navigation .nav-trigger.open span::after {
+    bottom:0;
+    -webkit-transform:rotate(225deg);
+    -moz-transform:rotate(225deg);
+    -ms-transform:rotate(225deg);
+    -o-transform:rotate(225deg);
+    transform:rotate(225deg);
+}
+
+nav#navigation ul {
+    width:100%;
+    position:absolute;
+    right:0;
+    top:38px;
+    background: white;
+    visibility:hidden;
+    z-index:50;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -ms-transform:scale(0);
+    -o-transform:scale(0);
+    transform:scale(0);
+    -webkit-transform-origin:100% 0;
+    -moz-transform-origin:100% 0;
+    -ms-transform-origin:100% 0;
+    -o-transform-origin:100% 0;
+    transform-origin:100% 0;
+    -webkit-transition:-webkit-transform 0.5s,visibility 0 .5s;
+    -moz-transition:-webkit-transform 0.5s,visibility 0 .5s;
+    transition:-webkit-transform 0.5s,visibility 0 .5s;
+}
+
+nav#navigation ul.is-visible {
+    visibility:visible;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    -webkit-transition:-webkit-transform 0.5s,visibility 0 0;
+    -moz-transition:-moz-transform 0.5s,visibility 0 0;
+    transition:transform 0.5s,visibility 0 0;
+}
+
+nav#navigation ul.is-visible li a {
+    visibility:visible;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+
+nav#navigation ul li {
+    width:50%;
+    margin:0;
+}
+
+nav#navigation ul li a {
+    width:100%;
+    padding:10px 0;
+    color: black;
+    visibility:hidden;
+    border-radius:0;
+}
+
+nav#navigation ul li a:hover {
+    border:0;
+}
+
+nav#navigation ul li.last a {
+    background:none;
+    border:0;
+    display:block;
+    padding:15px 0;
+    color: #fff;
+    font-size:.8em;
+}
+
+nav#navigation ul li.last a:hover {
+    border:0;
+}
+
+@media only screen and (max-width : 500px) {
+nav#navigation ul li {
+    width:100%;
+}
+}
+
+
+<!--This is for mobile screen size (Everything but nav)-->
+
+@media only screen and (max-width: 40em) {
 
 .column-work {
 	padding: 5px 5px 0 0;
@@ -146,5 +396,19 @@ footer {
 	background-color: #C7C7C7;
 	border-radius: 10px;
 }
+
+.body {
+	padding: 10px;
+}
+
+.social {
+	padding: 0 0 5px 0;
+}
+
+#home {
+	z-index: 0;
+	margin-top: 0;
+}
+
 	
 }
