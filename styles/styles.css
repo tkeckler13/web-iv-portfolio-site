@@ -2,32 +2,3 @@
 /* CSS Document */
 
 
-.column-work {
-	border-radius: 20px;
-}
-
-.featured {
-	border-radius: 500px;
-}
-
-span .overlay {
-  width: auto;
-  height: auto;
-  position: relative;
-  -webkit-transition: all 0.5s;
-}
-
-span .overlay .magnifier .content {
-	position: relative;
-}
-
-span:hover .overlay .magnifier {
-	width: 100%;
-	height: 100%;
-  	-webkit-transition: all 0.3s ease-in-out;
-  	background: #f2bbbd;
-}
-
-span .crosshair {
-	cursor: crosshair;
-}

@@ -34,7 +34,7 @@
 }
 
 #project {
-	padding-top: 200px;
+	padding: 50px 0 0 0;
 }
 
 .logo {
@@ -139,15 +139,110 @@ footer {
 }
 
 .form {
-	padding: 10px 10px 0 0;
+	margin: 10px 10px 0 0;
 }
+
+.tell-me {
+	margin: 10px 0 0 0;
+	width: 490px;
+	height: 94px;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+	margin: 0;
+	border-color: #85bab8;
+	border-style: solid;
+	border-width: 4px;
+}
+
+input.form-box {
+	border-radius: 7px;
+}
+
+input.tell-me {
+	height: 94px;
+}
+
+.send {
+	border-color: #85bab8;
+	border-style: solid;
+	border-radius: 7px;
+	border-width: 4px;
+	color: #85bab8;
+	text-align: center;
+	padding: 8px 0 0 8px;
+	margin-left: 10px;
+	height: 94px;
+}
+
+.send:hover {
+	background-color: #85bab8;
+	border-color: #85bab8;
+	border-width: 4px;
+}
+
+.send a:hover {
+	color: #f1f1f1;
+	font-size: 50px;
+}
+
+.send a {
+	color: #85bab8;
+	font-size: 50px;
+}
+
+
+
+
 
 .paragraph {
 	padding-top: 20px;
 }
 
+.column-work {
+	border-radius: 20px;
+}
 
+.featured {
+	border-radius: 500px;
+}
 
+span:hover .overlap {
+	
+}
+
+.overlay {
+  width: auto;
+  height: auto;
+  position: relative;
+  -webkit-transition: all 0.5s;
+}
+
+.overlay .magnifier .content {
+	position: relative;
+}
+
+.overlay .magnifier {
+}
+
+span:hover .overlay .magnifier {
+	width: 100%;
+	height: 100%;
+  	-webkit-transition: all 0.3s ease-in-out;
+  	background: #f2bbbd;
+}
+
+.crosshair {
+	cursor: crosshair;
+}
+
+.blurb {
+	padding-bottom: 100px;
+}
+
+.arrow {
+	padding-top: 10px;
+}
 
 
 <!--This is for the burger nav-->
@@ -155,7 +250,7 @@ footer {
 ul, li {margin:0;padding:0;}
 a {text-decoration:none;}
 
-h1 {font-size:1.5em;text-align:center;}
+h1 {font-size:1.5em;}
 
 header {
     height:115px;
