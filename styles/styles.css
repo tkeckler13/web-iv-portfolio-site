@@ -10,9 +10,24 @@
 	border-radius: 500px;
 }
 
-.overlay .magnifier {
+span .overlay {
+  width: auto;
+  height: auto;
+  position: relative;
+  -webkit-transition: all 0.5s;
+}
+
+span .overlay .magnifier .content {
+	position: relative;
+}
+
+span:hover .overlay .magnifier {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: all 0.3s ease-in-out;
-  	background: rgba(0,0,0,0.8);
+  	background: #f2bbbd;
+}
+
+span .crosshair {
+	cursor: crosshair;
 }
