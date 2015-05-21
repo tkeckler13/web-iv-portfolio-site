@@ -4,6 +4,9 @@
 #navigation {
 	position: fixed;
 	z-index: 1;
+	background-color: #FFFFFF;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
 }
 
 #social-icons {
@@ -12,12 +15,12 @@
 
 #home {
 	z-index: 0;
-	margin-top: -200px;
+	margin-top: -150px;
 }
 
 #work {
 	z-index: 0;
-	margin-top: 200px;
+	margin-top: 800px;
 }
 
 #about {
@@ -40,7 +43,11 @@
 
 ul {
 	margin: 0 0 0 0;
-	background-color: white;
+}
+
+.featured-work {
+	margin-top: 400px;
+	text-align:left;
 }
 
 p {
@@ -148,7 +155,7 @@ footer {
 ul, li {margin:0;padding:0;}
 a {text-decoration:none;}
 
-h1 {font-size:1.5em;text-align:center;margin:55px 0;}
+h1 {font-size:1.5em;text-align:center;}
 
 header {
     height:115px;

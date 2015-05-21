@@ -10,3 +10,9 @@
 	border-radius: 500px;
 }
 
+.overlay .magnifier {
+	width: 100%;
+	height: 100%;
+  	-webkit-transition: all 0.3s ease-in-out;
+  	background: rgba(0,0,0,0.8);
+}
