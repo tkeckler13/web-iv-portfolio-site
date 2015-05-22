@@ -3,7 +3,7 @@
 
 #navigation {
 	position: fixed;
-	z-index: 1;
+	z-index: 6;
 	background-color: #FFFFFF;
 	border-bottom-right-radius: 30px;
 	border-top-right-radius: 30px;
@@ -46,8 +46,17 @@ ul {
 }
 
 .featured-work {
-	margin-top: 400px;
+	margin-top: 350px;
+	margin-right: -200px;
 	text-align:left;
+	font-size: 150px;
+	line-height:160px;
+	z-index: 3;
+}
+
+.featured {
+	border-radius: 500px;
+	z-index: 2;
 }
 
 p {
@@ -201,10 +210,6 @@ input.tell-me {
 
 .column-work {
 	border-radius: 20px;
-}
-
-.featured {
-	border-radius: 500px;
 }
 
 span:hover .overlap {
