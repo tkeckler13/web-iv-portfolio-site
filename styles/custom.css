@@ -21,7 +21,7 @@
 
 #home {
 	z-index: 0;
-	margin-top: -150px;
+	margin-top: -130px;
 }
 
 #work {
@@ -183,7 +183,14 @@ input.form-box {
 	border-radius: 7px;
 }
 
-input.tell-me {
+textarea.form-box {
+	border-radius: 7px;
+	border-color: #85bab8;
+	border-style: solid;
+	border-width: 4px;
+}
+
+textarea.tell-me {
 	height: 94px;
 }
 
@@ -196,7 +203,7 @@ input.tell-me {
 	text-align: center;
 	padding: 8px 0 0 8px;
 	margin-left: 10px;
-	height: 94px;
+	height: 104px;
 }
 
 .send:hover {
