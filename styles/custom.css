@@ -6,12 +6,14 @@
 	z-index: 6;
 }
 
-.navigation {
+.logo {
 	background-color: white;
-	border-bottom-right-radius: 30px;
-	border-top-right-radius: 30px;
+	border-bottom-right-radius: 80px;
 }
-	
+
+.logo img {
+	padding: 0 10px 0 10px;
+}
 
 #social-icons {
 	padding-top: 170px;
@@ -283,11 +285,16 @@ header .container {
 }
 
 nav#navigation {
-    height:38px;
+    height:80px;
     float:left;
     position:relative;
-    margin-top: 30px;
+	padding-top: 17px;
     width:65%;
+	background: white;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	top: 0;
+	left: -3px;
 }
 
 nav#navigation .nav-trigger {
