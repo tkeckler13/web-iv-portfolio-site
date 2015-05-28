@@ -90,6 +90,7 @@ p {
 	padding: 40px;
 	background: none;
 	color: white;
+	ont-family:'Open Sans', sans-serif;
 }
 
 .page-links {
@@ -112,6 +113,10 @@ p {
 .icon {
 	list-style: none;
 	margin-top: -10px;
+}
+
+#work a {
+	color: white;
 }
 
 .project-imagery {
@@ -174,6 +179,14 @@ p {
 
 .contact {
 	padding: 20px 20px 0 0;
+}
+
+
+#about h3 {
+	font-family:doodlesack;
+	color: #f1f1f1;
+	font-size: 30px;
+	letter-spacing:2px;
 }
 
 .skills {
@@ -257,6 +270,12 @@ footer {
 
 footer p {
 	font-size: 10px;
+}
+
+.title h1 {
+	font-size: 70px;
+	letter-spacing:2px;
+	color: #4c4c4c;
 }
 
 .paragraph {
@@ -412,7 +431,6 @@ nav#navigation ul li {
     text-align:center;
     width:10%;
     margin-left:1%;
-	color: #DCDCDC;
 }
 
 nav#navigation ul li a {
