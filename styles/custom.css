@@ -212,6 +212,16 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	border-color: #85bab8;
 	border-style: solid;
 	border-width: 4px;
+	font-family:'Open Sans', sans-serif;
+	font-size:13px;
+	padding: 5px;
+	color: #4C4C4C;
+}
+
+input[type="text"]:focus {
+	border-style: solid;
+	border-color: #4c4c4c;
+	border-width: 4px;
 }
 
 input.form-box {
@@ -236,9 +246,9 @@ textarea.tell-me {
 	border-width: 4px;
 	color: #85bab8;
 	text-align: center;
-	padding: 8px 0 0 8px;
+	padding: 10px 0 0 8px;
 	margin-left: 10px;
-	height: 104px;
+	height: 107px;
 }
 
 .send:hover {
@@ -299,11 +309,13 @@ footer p {
 
 
 hr {
-	border: solid;
-	border-style: none;
-	border-width: 3px;
+	border: 0 none;
+	height: 2px;
 	color: white;
-	width: 300px;
+	background-color: white;
+	width: 190px;
+	display: block;
+	margin: 3px 0 3px 0;
 }
 
 .featured a {
@@ -320,7 +332,7 @@ hr {
 	left:0;
 	bottom:0;
 	right:0;
-	background: rgba(244,189,191,.7);
+	background: rgba(244,189,191,.8);
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
@@ -335,7 +347,7 @@ hr {
 	left:0;
 	bottom:0;
 	right:0;
-	background: rgba(133,186,184,.7);
+	background: rgba(133,186,184,.8);
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
@@ -358,7 +370,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 	color: white;
 	padding: 300px 0 0 300px;
 	border-radius: 500px;
@@ -370,7 +381,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 	color: white;
 	padding: 270px 0 0 200px;
 	border-radius: 500px;
@@ -424,7 +434,7 @@ hr {
 	left:0;
 	bottom:0;
 	right:0;
-	background: rgba(244,189,191,.7);
+	background: rgba(244,189,191,.9);
 	margin-top: 10px;
 	margin-right: 10px;
 	transition: all .5s ease-in-out;
@@ -441,7 +451,7 @@ hr {
 	left:0;
 	bottom:0;
 	right:0;
-	background: rgba(133,186,184,.7);
+	background: rgba(133,186,184,.9);
 	margin-top: 10px;
 	margin-right: 10px;
 	transition: all .5s ease-in-out;
@@ -466,7 +476,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 	color: white;
 	padding: 20px 0 0 20px;
 	border-radius: 20px;
@@ -478,7 +487,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 	color: white;
 	padding: 20px 0 0 20px;
 	border-radius: 20px;
