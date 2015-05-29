@@ -54,6 +54,8 @@ h1 {
 	font-size: 90px;
 	letter-spacing: 3px;
 	color: #DCDCDC;
+	line-height: 75px;
+	padding-bottom:10px;
 }
 
 h2 {
@@ -153,10 +155,7 @@ p {
 
 .column-work {
 	padding: 10px 10px 0 0;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-radius: 20px;
 	background-blend-mode: multiply;
 }
 
@@ -314,7 +313,15 @@ footer p {
 
 
 
-
+#project hr {
+	border: 0 none;
+	height: 2px;
+	color: #4C4C4C;
+	background-color: #4C4C4C;
+	width: 450px;
+	display: block;
+	margin: 5px 0 5px 0;
+}
 
 hr {
 	border: 0 none;
@@ -471,11 +478,6 @@ hr {
 
 .project a:hover {
 	border-radius: 20px;
-	opacity: 1;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 }
 
 .project a:hover .content-p {
@@ -558,6 +560,7 @@ hr {
 
 .arrow {
 	padding-top: 10px;
+	color: #a4a4a4;
 }
 
 
@@ -813,7 +816,7 @@ nav#navigation ul li {
 @media only screen and (max-width: 40em) {
 
 .featured-work {
-	margin-top: 350px;
+	margin-top: 250px;
 	margin-right: -200px;
 	text-align:left;
 	font-size: 50px;
@@ -821,8 +824,18 @@ nav#navigation ul li {
 	z-index: 3;
 }
 
+h1.featured-work {
+	font-family: doodlesack, open-sans;
+	font-size: 30px;
+	letter-spacing: 3px;
+	color: #DCDCDC;
+	line-height: 45px;
+	padding-bottom:10px;
+}
+	
 
-.column-work {
+
+work.column-work {
 	padding: 5px 5px 0 0;
 	border-radius: 5px;
 }
