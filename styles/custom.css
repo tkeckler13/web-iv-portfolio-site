@@ -222,6 +222,14 @@ input[type="text"]:focus {
 	border-style: solid;
 	border-color: #4c4c4c;
 	border-width: 4px;
+	background-color:white;
+}
+
+.form-box:focus {
+	border-style: solid;
+	border-color: #4c4c4c;
+	border-width: 4px;
+	background-color:white;
 }
 
 input.form-box {
