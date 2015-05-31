@@ -154,9 +154,6 @@ p {
 }
 
 .column-work {
-	padding: 10px 10px 0 0;
-	border-radius: 20px;
-	background-blend-mode: multiply;
 }
 
 .block {
@@ -247,20 +244,20 @@ textarea.tell-me {
 }
 
 .send {
-	border-color: #85bab8;
+	border-color: rgba(83,112,146,1);
 	border-style: solid;
 	border-radius: 7px;
 	border-width: 4px;
-	color: #85bab8;
+	color: rgba(83,112,146,1);
 	text-align: center;
 	padding: 10px 0 0 8px;
 	margin-left: 10px;
-	height: 107px;
+	height: 108px;
 }
 
 .send:hover {
-	background-color: #85bab8;
-	border-color: #85bab8;
+	background-color: rgba(83,112,146,1);
+	border-color: rgba(83,112,146,1);
 	border-width: 4px;
 }
 
@@ -270,7 +267,7 @@ a.send:hover {
 }
 
 a.send {
-	color: #85bab8;
+	color: rgba(83,112,146,1);
 	font-size: 50px;
 	font-family:doodlesack;
 	letter-spacing: 2px;
@@ -352,7 +349,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 }
 
 .featured a .content-b {
@@ -367,7 +363,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 }
 
 .featured a:hover {
@@ -402,6 +397,13 @@ hr {
 }
 
 
+.content-p, .content-b {
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+
 .featured:hover  {
 	position: relative;
 	transition: all .5s ease-in-out;
@@ -435,11 +437,11 @@ hr {
 	border-radius: 500px;
 }	
 
+
 .project a {
 	float: left;
 	position: relative;
 	visibility: visible;	
-	border-radius: 20px;
 }
 
 .project a .content-p {
@@ -450,13 +452,10 @@ hr {
 	bottom:0;
 	right:0;
 	background: rgba(244,189,191,.9);
-	margin-top: 10px;
-	margin-right: 10px;
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
 }
 
 .project a .content-b {
@@ -467,13 +466,20 @@ hr {
 	bottom:0;
 	right:0;
 	background: rgba(133,186,184,.9);
-	margin-top: 10px;
-	margin-right: 10px;
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	background-blend-mode: multiply;
+}
+
+.project {
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
 .project a:hover {
@@ -482,10 +488,6 @@ hr {
 
 .project a:hover .content-p {
 	display: block;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	color: white;
 	padding: 20px 0 0 20px;
 	border-radius: 20px;
@@ -493,26 +495,14 @@ hr {
 
 .project a:hover .content-b {
 	display: block;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	color: white;
 	padding: 20px 0 0 20px;
 	border-radius: 20px;
 }
 
-.blend img{
-	background-blend-mode: multiply;
-}
-
 
 .project:hover  {
 	position: relative;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
  	-webkit-backface-visibility: hidden;
  	backface-visibility: hidden;
   	display: block;
@@ -523,20 +513,12 @@ hr {
 .project:hover img .content-p {
 	width: 100%;
 	height: 100%;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	border-radius: 20px;
 }
 
 .project:hover img .content-b {
 	width: 100%;
 	height: 100%;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	border-radius: 20px;
 }	
 	
