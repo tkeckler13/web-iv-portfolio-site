@@ -143,6 +143,12 @@ p {
 
 .social-column {
 	position: fixed;
+	background-color: white;
+	z-index: 2;
+	top: 140px;
+	padding-top: 40px;
+	border-bottom-right-radius: 50px;
+	width: 95px;
 }
 
 .social {
@@ -292,7 +298,7 @@ a.send {
 
 
 footer {
-	z-index: 0;
+	z-index: 10;
 	margin-top: 200px;
 	background-color: #85bab8;
 	color: white;
@@ -352,6 +358,10 @@ hr {
 	position: relative;
 	visibility: visible;	
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .featured a .content-p {
@@ -460,6 +470,10 @@ hr {
 	position: relative;
 	visibility: visible;	
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .project a .content-p {
