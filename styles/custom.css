@@ -153,7 +153,24 @@ p {
 	margin-bottom: 100px;
 }
 
-.column-work {
+#project img {
+	border-radius: 20px;
+}
+
+.project {
+	border-radius: 20px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+a img {
+	border-radius: 20px;
+}
+
+.page-project {
+	border-radius: 20px;
+	padding-bottom: 10px;
+	padding-right: 10px;
 }
 
 .block {
@@ -442,6 +459,7 @@ hr {
 	float: left;
 	position: relative;
 	visibility: visible;	
+	border-radius: 20px;
 }
 
 .project a .content-p {
@@ -477,9 +495,6 @@ hr {
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	border-radius: 20px;
-	margin-top: 10px;
-	margin-right: 10px;
 }
 
 .project a:hover {
@@ -506,7 +521,6 @@ hr {
  	-webkit-backface-visibility: hidden;
  	backface-visibility: hidden;
   	display: block;
-	border-radius: 20px;
 	
 }
 
