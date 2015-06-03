@@ -41,6 +41,10 @@
 	padding-top: 200px;
 }
 
+#contact-links {
+	padding-top: 20px;
+}
+
 #project {
 	padding: 50px 0 0 0;
 }
@@ -399,10 +403,6 @@ hr {
 	position: relative;
 	visibility: visible;	
 	border-radius: 500px;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 }
 
 .featured a .content-p {
@@ -436,18 +436,10 @@ hr {
 .featured a:hover {
 	border-radius: 500px;
 	opacity: 1;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 }
 
 .featured a:hover .content-p {
 	display: block;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	color: white;
 	padding: 300px 0 0 300px;
 	border-radius: 500px;
@@ -455,10 +447,6 @@ hr {
 
 .featured a:hover .content-b {
 	display: block;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	color: white;
 	padding: 270px 0 0 200px;
 	border-radius: 500px;
@@ -474,10 +462,6 @@ hr {
 
 .featured:hover  {
 	position: relative;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
  	-webkit-backface-visibility: hidden;
  	backface-visibility: hidden;
   	display: block;
@@ -488,20 +472,12 @@ hr {
 .featured:hover img .content-p {
 	width: 100%;
 	height: 100%;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	border-radius: 500px;
 }
 
 .featured:hover img .content-b {
 	width: 100%;
 	height: 100%;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
 	border-radius: 500px;
 }	
 
@@ -595,12 +571,20 @@ hr {
 	padding-left: 20px;
 	padding-top: 20px; 
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .content-b {
 	padding-left: 20px;
 	padding-top: 20px; 
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 
@@ -887,7 +871,6 @@ nav#navigation ul li {
 	text-align:left;
 	font-size: 50px;
 	line-height: 60px;
-	z-index: 3;
 }
 
 h1.featured-work {
