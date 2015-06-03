@@ -38,7 +38,7 @@
 
 #contact {
 	z-index: 0;
-	padding-top: 200px;
+	padding-top: 250px;
 }
 
 #contact-links {
@@ -231,16 +231,16 @@ a img {
 	margin: 0 0 10px 10px;
 }
 
-.skills-h {
-	margin-left: -20px;
-}
-
 .skill-h {
-	margin: 10px 0 0 10px;
+	margin: 10px 12px 0 0;
+	height: 110px;
+	width: 110px;
 }
 
-.skill-h img {
+.skill-h-last {
 	width: 110px;
+	height: 110px;
+	margin-top: 10px;
 }
 
 .column-skill {
@@ -378,6 +378,8 @@ footer {
 
 
 
+
+
 #project hr {
 	border: 0 none;
 	height: 2px;
@@ -403,6 +405,10 @@ hr {
 	position: relative;
 	visibility: visible;	
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .featured a .content-p {
@@ -436,6 +442,10 @@ hr {
 .featured a:hover {
 	border-radius: 500px;
 	opacity: 1;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .featured a:hover .content-p {
@@ -443,6 +453,10 @@ hr {
 	color: white;
 	padding: 300px 0 0 300px;
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .featured a:hover .content-b {
@@ -450,6 +464,10 @@ hr {
 	color: white;
 	padding: 270px 0 0 200px;
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 
@@ -466,6 +484,10 @@ hr {
  	backface-visibility: hidden;
   	display: block;
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 	
 }
 
@@ -473,12 +495,20 @@ hr {
 	width: 100%;
 	height: 100%;
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .featured:hover img .content-b {
 	width: 100%;
 	height: 100%;
 	border-radius: 500px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }	
 
 
@@ -494,7 +524,7 @@ hr {
 }
 
 .project a .content-p {
-	display: none;
+	display: hidden;
 	position: absolute;
 	top:0;
 	left:0;
@@ -508,7 +538,7 @@ hr {
 }
 
 .project a .content-b {
-	display: none;
+	display: hidden;
 	position: absolute;
 	top:0;
 	left:0;
@@ -530,6 +560,11 @@ hr {
 
 .project a:hover {
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	
 }
 
 .project a:hover .content-p {
@@ -537,6 +572,10 @@ hr {
 	color: white;
 	padding: 20px 0 0 20px;
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .project a:hover .content-b {
@@ -544,6 +583,10 @@ hr {
 	color: white;
 	padding: 20px 0 0 20px;
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 
@@ -552,6 +595,10 @@ hr {
  	-webkit-backface-visibility: hidden;
  	backface-visibility: hidden;
   	display: block;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 	
 }
 
@@ -559,12 +606,20 @@ hr {
 	width: 100%;
 	height: 100%;
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
 
 .project:hover img .content-b {
 	width: 100%;
 	height: 100%;
 	border-radius: 20px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }	
 	
 .content-p {
@@ -862,7 +917,7 @@ nav#navigation ul li {
 @media only screen and (max-width : 640px) {
 	
 #social-icons {
-	padding-top:100px;
+	padding-top: 100px;
 }
 
 .featured-work {
@@ -873,7 +928,7 @@ nav#navigation ul li {
 	line-height: 60px;
 }
 
-h1.featured-work {
+h1 .featured-work {
 	font-family: doodlesack, open-sans;
 	font-size: 30px;
 	letter-spacing: 3px;
@@ -884,7 +939,7 @@ h1.featured-work {
 	
 
 
-work.column-work {
+#work .column-work {
 	padding: 5px 5px 0 0;
 	border-radius: 5px;
 }
