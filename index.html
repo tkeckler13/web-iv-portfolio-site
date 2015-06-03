@@ -134,7 +134,7 @@
                     </div>
                 	<div class="project row">
                     	<a class="corner" href="project-pages/the-hound-apothecary.html">
-                    		<img class="column-work" src="images/original-icons/the-hound-apothecary-logo-icon copy.jpg" alt="icon">
+                    		<img class="column-work" src="images/original-icons/the-hound-apothecary-logo-icon-copy.jpg" alt="icon">
                             <div class="content-p">
                                <p>
                                     <strong>The Hound Apothecary</strong>
@@ -268,76 +268,46 @@
     
     <section id="about">
         <div class="row">
-    		<div class="large-4 large-offset-3 small-6 small-offset-2 columns end">
+    		<div class="about large-4 large-offset-3 small-6 small-offset-2 columns end">
             	<img src="images/drawn-heading-about.png">
             </div>
         </div>
         <div class="row">
             <div class="large-4 large-offset-3 medium-6 small-7 small-offset-2 columns">
            		<div class="block row">
-        			<p class="body">Where I’m from - Lincoln, Nebraska. Corn.
-                    Graduated from - GDMA Program. Don’t judge me, I’m amazing.
-                    What I like - Dauntless, Exciting, Adventurous, Quirky
-                    What kind of designs represent me - Illustrative works, 
-                    Things that stand out and have that shock value, Bold color contrasts, 
-                    and anything handwritten or handmade. Two words, magic hands.
-                    What I can do for them - Unique designs with personalized illustrative 
+        			<p class="body">My name is Taylor and I'm from Lincoln, Nebraska. Lots of corn.
+                    Don’t judge me, I’m amazing. The kind of things I like are vintage, adventurous, and quirky.
+                    I express these through my works with illustration, dauntless concepts, shock value, 
+                    bold color contrasts, and anything handwritten or handmade. Two words, magic hands.
+                    What can I do with them? Unique designs with personalized illustrative 
                     designs that express spontaneity, charm, and fun. All about the fun.</p>
 				</div>
-            	<div class="row">
-	        		<div class="block large-9 large-offset-3 small-12 columns">
-                		<div class="body">
-        					<h3 class="contact-me">Contact Me</h3>
-            				<div class="">
-            					<div class="row contact">
-        							<div class="icon large-3 small-2 columns"><img src="images/phone-icon.png" alt="icon"></div>
-        	    					<div class="info large-8 small-9 columns end">
-                                    	<a href="tel:1(402)-209-5313">(1) 402-209-5313</a></div>
-                				</div>
-               					<div class="row contact">
-           							<div class="icon large-3 small-2 columns"><img src="images/email-icon.png" alt="icon"></div>
-           							<div class="info large-4 small-9 columns end">
-                                    	<a href="mailto:hello@taylorkeckler.com">hello&commat;taylorkeckler.com</a>
-                                    </div>
-            					</div>
-            				</div>
-                    	</div>
-        			</div>
-            	</div>
             </div>
-            <div class="skills large-1 medium-1 small-2 columns end">
-            	<div class="skill">
-                	<div class="row">
-                		<img class="block-skill" src="images/skill-labels-01.png" alt"InDesign">
+            
+            <div class="large-1 medium-1 small-2 columns end">
+                	<div class="skill-v-t row">
+                    	<img class="block-skill" src="images/skill-labels-05.png" alt="Photography">
                 	</div>
-                </div>
-                <div class="skill">
-                	<div class="row">
-                		<img class="block-skill" src="images/skill-labels-02.png" alt"Illustrator">
+                	<div class="skill-v-b row">
+                    	<img class="block-skill" src="images/skill-labels-06.png" alt="Typography">
                 	</div>
-                </div>
-                <div class="skill">
-                	<div class="row">
-                    	<img class="block-skill" src="images/skill-labels-03.png" alt"Photoshop">
-                	</div>
-                </div>
-                <div class="skill">
-                	<div class="row">
-                    	<img class="block-skill" src="images/skill-labels-04.png" alt"Dreamweaver">
-                	</div>
-                </div>
-                <div class="skill">
-                	<div class="row">
-                    	<img class="block-skill" src="images/skill-labels-05.png" alt"Photography">
-                	</div>
-                </div>
-                <div class="skill">
-                	<div class="row">
-                    	<img class="block-skill" src="images/skill-labels-06.png" alt"Typography">
-                	</div>
-                </div>
             </div>
         </div>
+        <div class="skills-h row">
+                	<div class="skill-h large-1 large-offset-4 medium-1 small-2 small-offset-2 columns">
+                		<img class="block-skill" src="images/skill-labels-01.png" alt="InDesign">
+                	</div>
+                	<div class="skill-h large-1 medium-1 small-2 columns">
+                		<img class="block-skill" src="images/skill-labels-02.png" alt="Illustrator">
+                	</div>
+                	<div class="skill-h large-1 medium-1 small-2 columns">
+                    	<img class="block-skill" src="images/skill-labels-03.png" alt="Photoshop">
+                	</div>
+                	<div class="skill-h large-1 medium-1 small-2 columns end">
+                    	<img class="block-skill" src="images/skill-labels-04.png" alt="Dreamweaver">
+                	</div>
+        </div>
+        	
     </section>
     
     <section id="contact" class="hide-for-small-only">
@@ -347,43 +317,52 @@
             </div>
         </div>
         	<div class="row">
-    			<form>
+    			<form method="post" action="contact-engine.php">
                 	<div class="row">
                     	<div class="form large-2 large-offset-3 medium-3 medium-offset-2 columns">
-				  			<input type="text" class="form-box" placeholder="Name">
+				  			<input type="text" class="form-box" placeholder="Name" name="Name" id="Name" />
                         </div>
                         <div class="form large-2 medium-3 column">
-				  			<input type="text" class="form-box" placeholder="Email">
+				  			<input type="text" class="form-box" placeholder="Email" name="email" id="email" />
                         </div>
                         <div class="form large-2 medium-3 column end">
-				  			<input type="text" class="form-box" placeholder="Website">
+				  			<input type="text" class="form-box" placeholder="Phone Number" name="phone" id="phone" />
                         </div>
                     </div>
                     <div class="row">
-                    	<div class="form large-2 large-offset-3 medium-3 medium-offset-2 columns">
-				  			<input type="text" class="form-box" placeholder="Deadline">
-                        </div>
-                        <div class="form large-2 medium-3 column">
-				  			<input type="text" class="form-box" placeholder="Budget">
-                        </div>
-                        <div class="form large-2 medium-3 column end">
-				  			<input type="text" class="form-box" placeholder="Services Needed">
-                        </div>
-                  	</div>
-                    <div class="row">
                     	<div class="tell-me large-4 large-offset-3 medium-6 medium-offset-2 column">
-                  			<textarea rows="5" type="text" class="form-box" placeholder="Tell me a bit about your project..."></textarea>
+                  			<textarea class="form-box" placeholder="Tell me about your project..." name="Message" rows="5" cols="20" id="message"></textarea> 
                         </div>
-	                    <a href="#" class="send form large-2 medium-3 column end form-box">Send</a>
+                        <input type="submit" class="send form large-2 medium-3 column end form-box" name="submit" value="Send" />
                   	</div>
                 </form>
         	</div>
+            
+            <div class="row contact-info">
+            	<div class="large-2 large-offset-3 small-3 small-offset-1 columns">
+                	<div class="icon small-3 columns"><img src="images/copy-icon.png" alt="icon"></div>
+                    <div class="info small-6 columns end">
+        				<p>Taylor Keckler 2015</p>
+                    </div>
+        		</div>
+            	<div class="large-2 small-3 columns">
+        			<div class="icon small-3 columns"><img src="images/phone-icon.png" alt="icon"></div>
+        	    		<div class="info small-6 columns end">
+                        	<a class="contact-link" href="tel:1(402)-209-5313"><p>1.402.209.5313</p></a>
+                        </div>
+                </div>
+               	<div class=" large-2 small-3 columns end">
+           			<div class="icon small-3 columns"><img src="images/email-icon.png" alt="icon"></div>
+           				<div class="info small-6 columns end">
+                        	<a class="contact-link" href="mailto:taylor@teaspoondesign.com"><p>taylor&commat;teaspoondesign.com</p></a>
+                     	</div>
+          		</div>
+            </div>
+            	
     </section>
     
     <footer>
-    	<div class="">
-        	<p>Copyright &copy; Taylor Keckler 2015</p>
-        </div>
+    	
     </footer>
   
 </body>
