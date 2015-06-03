@@ -524,7 +524,7 @@ hr {
 }
 
 .project a .content-p {
-	display: hidden;
+	display: none;
 	position: absolute;
 	top:0;
 	left:0;
@@ -538,7 +538,7 @@ hr {
 }
 
 .project a .content-b {
-	display: hidden;
+	display: none;
 	position: absolute;
 	top:0;
 	left:0;
