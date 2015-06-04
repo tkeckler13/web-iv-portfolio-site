@@ -11,6 +11,7 @@
 	background-color: white;
 	border-bottom-right-radius: 80px;
 	width: 12%;
+	z-index: 100;
 }
 
 .logo img {
@@ -38,7 +39,7 @@
 
 #contact {
 	z-index: 0;
-	padding-top: 250px;
+	padding-top: 20em;
 }
 
 #contact-links {
@@ -54,7 +55,7 @@
 }
 
 h1 {
-	font-family: doodlesack, open-sans;
+	font-family: doodlesack, 'Open Sans', sans-serif;;
 	font-size: 90px;
 	letter-spacing: 3px;
 	color: #DCDCDC;
@@ -63,7 +64,7 @@ h1 {
 }
 
 h2 {
-	font-family: doodlesack, open-sans;
+	font-family: doodlesack, 'Open Sans', sans-serif;;
 	font-size: 90px;
 	letter-spacing: 3px;
 	color: #DCDCDC;
@@ -93,7 +94,7 @@ p {
 }
 
 .body {
-	padding: 37px;
+	padding: 28px;
 	background: none;
 	color: white;
 	font-family:'Open Sans', sans-serif;
@@ -204,7 +205,7 @@ a img {
 }
 
 .block {
-	margin: 10px 10px 0 0;
+	margin: 8px 10px 0 0;
 	background-color: #85bab7;
 	border-radius: 20px;
 }
@@ -228,19 +229,19 @@ a img {
 }
 
 .skill-v-b.row{
-	margin: 0 0 10px 10px;
+	margin: 0 0 0 10px;
 }
 
 .skill-h {
-	margin: 10px 12px 0 0;
-	height: 110px;
-	width: 110px;
+	margin: 10px 13px 0 0;
+	width: 104px;
+	height: 104px;
 }
 
 .skill-h-last {
-	width: 110px;
-	height: 110px;
 	margin-top: 10px;
+	width: 104px;
+	height: 104px;
 }
 
 .column-skill {
@@ -248,12 +249,23 @@ a img {
 }
 
 .form {
-	margin: 10px 10px 0 0;
+	margin: 10px 0 0 0;
+}
+
+form .row .row .column {
+	padding: 0;
+}
+
+form .row .row {
+	margin: 0;
+}
+
+form .row {
+	margin-top: 10px;
 }
 
 .tell-me {
 	margin: 10px 0 0 0;
-	width: 490px;
 	height: 94px;
 }
 
@@ -297,6 +309,15 @@ textarea.tell-me {
 	height: 94px;
 }
 
+input#Phone {
+	margin: 10px 0 0 10px;
+}
+
+input#Email {
+  	width: 96%;
+  	float: right;
+}
+
 input.send {
 	background-color: white;
 	border-color: rgba(83,112,146,1);
@@ -305,9 +326,9 @@ input.send {
 	border-width: 4px;
 	color: rgba(83,112,146,1);
 	text-align: center;
-	padding: px 0 0 8px;
-	margin-left: 10px;
 	height: 108px;
+	box-sizing:inherit;
+	width: 100%;
 }
 
 input.send:hover {
@@ -323,8 +344,9 @@ input.send:hover {
 
 input.send {
 	font-size: 50px;
-	font-family:doodlesack;
+	font-family: doodlesack, 'Open Sans', sans-serif; ;
 	letter-spacing: 2px;
+	margin-left: 10px;
 }
 
 #thank-you {
@@ -708,7 +730,7 @@ nav#navigation ul li {
 }
 
 nav#navigation ul li a {
-	font-family:doodlesack, open-sans;
+	font-family:doodlesack, 'Open Sans', sans-serif;
 	font-size:20px;
 	letter-spacing: 2px;
     text-align:center;
@@ -730,7 +752,7 @@ nav#navigation ul li a:hover {
 }
 
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 1025px) {
 nav#navigation {
     position:absolute;
     width:90%;
@@ -903,9 +925,20 @@ nav#navigation ul li {
 <!--This is for tablet screen size (Everything but nav)-->
 @media only screen and (max-width : 1025px) {
 
+.featured-work {
+		margin-left: 20px;
+		z-index: 3;
+	}
 
-
+#home {
+	z-index: 0;
+	margin-top: -200px;
+}
 	
+.tell-me {
+	width: 51.2%;
+}
+
 }
 
 
@@ -929,7 +962,7 @@ nav#navigation ul li {
 }
 
 h1 .featured-work {
-	font-family: doodlesack, open-sans;
+	font-family: doodlesack, 'Open Sans', sans-serif;;
 	font-size: 30px;
 	letter-spacing: 3px;
 	color: #DCDCDC;
