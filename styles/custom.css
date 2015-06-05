@@ -227,6 +227,10 @@ a img {
 	border-radius: 10px;
 }
 
+.block.row {
+	padding: 5px 20px 5px 0;
+}
+
 .contact {
 	padding: 20px 20px 0 0;
 }
