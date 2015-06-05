@@ -889,9 +889,9 @@ nav#navigation ul.is-visible {
     -ms-transform:scale(1);
     -o-transform:scale(1);
     transform:scale(1);
-    -webkit-transition:-webkit-transform 0.5s,visibility 0;
-    -moz-transition:-moz-transform 0.5s,visibility 0;
-    transition:transform 0.5s,visibility 0;
+    -webkit-transition:-webkit-transform 0.5s;
+    -moz-transition:-moz-transform 0.5s;
+    transition:transform 0.5s;
 }
 
 nav#navigation ul.is-visible li a {
