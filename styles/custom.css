@@ -722,7 +722,6 @@ nav#navigation {
 nav#navigation .nav-trigger {
     display:none;
     position:absolute;
-    top:10;
     right:0;
     width:38px;
     height:38px;
@@ -890,9 +889,9 @@ nav#navigation ul.is-visible {
     -ms-transform:scale(1);
     -o-transform:scale(1);
     transform:scale(1);
-    -webkit-transition:-webkit-transform 0.5s,visibility 0 0;
-    -moz-transition:-moz-transform 0.5s,visibility 0 0;
-    transition:transform 0.5s,visibility 0 0;
+    -webkit-transition:-webkit-transform 0.5s,visibility 0;
+    -moz-transition:-moz-transform 0.5s,visibility 0;
+    transition:transform 0.5s,visibility 0;
 }
 
 nav#navigation ul.is-visible li a {
@@ -960,7 +959,6 @@ nav#navigation ul li.last a:hover {
 }
 
 .social-column {
-	top: 5;
 	padding-top: 20px;
 }
 
@@ -1038,7 +1036,6 @@ nav#navigation ul li {
 }
 
 .social-column {
-	top: 10;
 }
 	
 #social-icons {
