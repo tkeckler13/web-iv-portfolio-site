@@ -939,6 +939,13 @@ nav#navigation ul li.last a:hover {
 	margin-top: 0;
 }
 
+.logo img{
+	max-width: 130%;
+	padding: 10px 0 0 10px;
+	background-color: white;
+	border-bottom-right-radius: 100px;
+}
+
 .featured-work {
 	margin: 0 0 0 20px;
 	z-index: 3;
@@ -964,17 +971,20 @@ nav#navigation ul li.last a:hover {
 .home img {
 	z-index: 0;
 }
+
+.skill-v-t img.block-skill {
+	width: 104px;
+}
+
+.skill-v-b img.block-skill {
+	width: 104px;
+}
 	
 .tell-me.column {
 	width: 100%;
 }
 
-.logo img{
-	max-width: 130%;
-	padding: 10px 0 0 10px;
-	background-color: white;
-	border-bottom-right-radius: 100px;
-}
+
 
 .info a {
 	padding-top: 5px;
@@ -986,14 +996,6 @@ nav#navigation ul li.last a:hover {
 	font-size: 1em;
 }
 
-.arrow {
-	padding-top: 10px;
-	color: #a4a4a4;
-}
-
-.project-arrows {
-	width: 100%;
-}
 }
 
 
@@ -1005,7 +1007,7 @@ nav#navigation {
 }
 
 nav#navigation .nav-trigger {
-	margin: 20px 30px 0 0;
+	margin: 10px 30px 0 0;
     display:block;
     border-radius: 5px;
 	background:rgba(83,112,146,1);
