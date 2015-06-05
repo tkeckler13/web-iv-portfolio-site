@@ -250,7 +250,7 @@ a img {
 }
 
 .skill-h {
-	margin: 10px 13px 0 0;
+	margin: 10px 19px 0 0;
 	width: 104px;
 	height: 104px;
 }
@@ -1040,6 +1040,7 @@ nav#navigation ul li {
 }
 
 .social-column {
+	width: 10%;
 }
 	
 #social-icons {
@@ -1074,6 +1075,10 @@ nav#navigation ul li {
 	margin: 5px 5px 0 0;
 	background-color: rgba(133,186,184,1);
 	border-radius: 15px;
+}
+
+.block.row {
+	padding: 30px 5px 10px 0;
 }
 
 .skill-v-start img {
