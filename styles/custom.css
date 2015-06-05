@@ -490,7 +490,7 @@ hr {
 .featured a:hover .content-p {
 	display: block;
 	color: white;
-	padding: 300px 0 0 300px;
+	padding: 270px 0 0 200px;
 	border-radius: 500px;
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
@@ -1040,11 +1040,12 @@ nav#navigation ul li {
 }
 
 .social-column {
-	width: 10%;
+	width: 12%;
 }
 	
 #social-icons {
 	padding-top: 100px;
+	width: 100%;
 }
 
 .featured-work {
@@ -1129,5 +1130,12 @@ nav#navigation ul li {
 	font-size: 1em;
 	padding-top:23px;
 }
+
+
+.featured a:hover .content-b {
+	display: block;
+	color: white;
+	padding: 100px 0 0 50px;
+	border-radius: 500px;
 
 }

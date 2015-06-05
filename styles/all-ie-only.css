@@ -12,7 +12,7 @@ img {
 }
 
 #work.column-work img {
-	width: inherit;
+	max-width: inherit;
 }
 
 #project hr {
