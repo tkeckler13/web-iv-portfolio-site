@@ -249,16 +249,22 @@ a img {
 	margin: 0 0 0 10px;
 }
 
+
+.skills-h.row {
+	width: 100%;
+	display:inline-block;
+}
+
 .skill-h {
-	margin: 10px 19px 0 0;
-	width: 104px;
-	height: 104px;
+	margin: 10px 11px 0 0;
+	width: 17.4%;
+	display: inline-block;
 }
 
 .skill-h-last {
 	margin-top: 10px;
-	width: 104px;
-	height: 104px;
+	width: 17.4%;
+	display: inline-block;
 }
 
 .column-skill {
@@ -1094,6 +1100,7 @@ nav#navigation ul li {
 .skill-v-b.row {
 	margin: 0 0 5px 5px;
 }
+
 
 .body {
 	padding: 25px 25px 58px 25px;
